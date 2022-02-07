@@ -10,9 +10,12 @@
 body
 {
     font-family: "raleway", Arial, Helvetica, sans-serif;
-    margin: 2%;
 }
             /* header */
+header
+{
+    margin: 2%;
+}
 #tetepage
 {
     display: flex;
@@ -45,59 +48,32 @@ nav
     display: flex;
     align-items: center;
 }
+.filtres
+{
+    display: flex;
+    border: 3px solid #020101;
+    align-items: center;
+    border-radius: 22px;
+    height: 40px;
+    width: 15%;
+    margin: 1%;
+}
 .icone
 {
-    border: solid black;
-    border-radius: 22px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 8px;
-    margin-right: 22px;
-    padding-right: 8px;
-}
-#money
-{
     display: flex;
-    border: solid;
-    border-radius: 20px;
-    width: 169px;
-    height: 30px;
-    margin: 5px;
-    justify-content: center;
+    border: 2px solid #000000;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    width: 40px;
+    height: 100%;
     align-items: center;
+    justify-content: center;
+    border-left-width: 0px;
 }
-#child
+.selectfiltre
 {
-    display: flex;
-    border: solid;
-    border-radius: 20px;
-    width: 169px;
-    height: 30px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-}
-#heart
-{
-    display: flex;
-    border: solid;
-    border-radius: 20px;
-    width: 169px;
-    height: 30px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-}
-#dog
-{
-    display: flex;
-    border: solid;
-    border-radius: 20px;
-    width: 169px;
-    height: 30px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    font-weight: bold;
 }
 #info
 {
@@ -110,10 +86,7 @@ nav
 {
     display: flex;
     margin-top: 30px;
-}
-h2
-{
-    margin-left: 30px;
+    margin: 2%;
 }
 #hebergement
 {
@@ -153,7 +126,7 @@ h2
 .boxcentrale > img
 {
     height: 150px;
-    width: 273px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 .boxcentrale > p
@@ -213,6 +186,7 @@ h2
     background-color: gray;
     border-radius: 22px;
     margin-top: 30px;
+    margin: 2%;
 }
 .img1 > img
 {
