@@ -51,7 +51,7 @@ nav
 .filtres
 {
     display: flex;
-    border: 3px solid #020101;
+    border: 3px solid #F2F2F2;
     align-items: center;
     border-radius: 22px;
     height: 40px;
@@ -61,7 +61,7 @@ nav
 .icone
 {
     display: flex;
-    border: 2px solid #000000;
+    border: 2px solid #F2F2F2;
     background-color: #DEEBFF;
     border-radius: 100%;
     width: 40px;
@@ -74,11 +74,23 @@ nav
 {
     text-align: center;
     font-weight: bold;
+    margin: auto;
 }
 #info
 {
     display: flex;
     align-items: center;
+}
+.info
+{
+    display: flex;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 15px;
 }
 
             /* centre page */
@@ -93,13 +105,9 @@ nav
     display: flex;
     flex-direction: column;
     width: 70%;
-    background-color: gray;
+    background-color: #F2F2F2;
     border-radius: 22px;
 
-}
-#herbergement > h3
-{
-    margin-left: 30px;
 }
 #boxcentre
 {
@@ -122,6 +130,10 @@ nav
     width: 300px;
     margin-bottom: 20px;
 
+}
+.boxcentrale:hover
+{
+    box-shadow: 1px 1px 1px gray;
 }
 .boxcentrale > img
 {
@@ -147,15 +159,28 @@ nav
 {
     display: flex;
     width: 30%;
-    background-color: gray;
+    background-color: #F2F2F2;
     border-radius: 22px;
     margin-left: 33px;
     flex-direction: column;
+}
+.pop
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #boxdroite
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 .boxleft
 {
@@ -164,29 +189,55 @@ nav
     border-radius: 20px;
     flex-direction: row;
     margin: 21px;
+    height: 154px;
+    margin-bottom: 0px;
+}
+.boxleft:hover
+{
+    box-shadow: 1px 1px 1px gray;
+}
+.boxtext
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
 .boxleft > img
 {
-    height: 150px;
-    width: 156px;
+    height: 94%;
+    width: 30%;
     border-radius: 20px 0px 0px 20px;
     padding: 5px;
 }
-.boxleft > p, h3
+.boxtext > p
 {
-    display: flex;
+    margin-top: 10px;
+}
+.boxtext > h3
+{
+    margin-bottom: 0px;
 }
         /* section du bas */
 #activites
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
     background-color: gray;
     border-radius: 22px;
     margin-top: 30px;
     margin: 2%;
+    width: 1252.81;
+    height: 923.25;
+}
+#boxdown
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .img1 > img
 {
@@ -282,9 +333,23 @@ nav
             /* footer */
 #footer
 {
-    background-color: rgba(0, 0, 255, 0.247);
+    background-color: #F2F2F2;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-direction: row;
     margin-top: 30px;
+    flex-wrap: wrap;
+}
+.foot
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 15%;
+    margin-left: 2%;
+}
+.foot > p
+{
+    margin-top: 0px;
+    margin-bottom: 6%;
 }
