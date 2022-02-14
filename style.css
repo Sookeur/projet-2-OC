@@ -14,7 +14,7 @@ body
             /* header */
 header
 {
-    margin: 2%;
+    margin: 4%;
 }
 #tetepage
 {
@@ -36,12 +36,23 @@ nav
 #recherche
 {
     display: flex;
-    width: 50px;
-
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
 }
-.i
+.maps
 {
-    size: 50px;
+    display: flex;
+    border: 2px solid #F2F2F2;
+    border-radius: 12px 0px 0px 12px;
+    padding: 14px;
+    background-color: #F2F2F2;
+}
+.button
+{
+    border-radius: 0px 12px 12px 0px;
 }
 #filtre
 {
@@ -98,7 +109,7 @@ nav
 {
     display: flex;
     margin-top: 30px;
-    margin: 2%;
+    margin: 4%;
 }
 #hebergement
 {
@@ -224,13 +235,11 @@ nav
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
+    width: 92%;
     background-color: gray;
     border-radius: 22px;
     margin-top: 30px;
-    margin: 2%;
-    width: 1252.81;
-    height: 923.25;
+    margin: 4%;
 }
 #boxdown
 {
