@@ -10,6 +10,7 @@
 body
 {
     font-family: "raleway", Arial, Helvetica, sans-serif;
+    margin-top: 0px;
 }
             /* header */
 header
@@ -32,12 +33,13 @@ header
 nav
 {
     display: flex;
-    margin-top: 10px;
 }
 nav > a
 {
     margin-right: 50px;
     text-decoration: none;
+    padding-top: 20px;
+    border-top: 2px solid white;
 }
 nav > a:hover
 {
@@ -265,6 +267,11 @@ nav > a:hover
 .boxtext > h3
 {
     margin-bottom: 0px;
+}
+.boxleft > a 
+{
+    display: flex;
+    text-decoration: none;
 }
         /* section du bas */
 #activites
