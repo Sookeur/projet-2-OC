@@ -18,7 +18,7 @@ header
     max-width: 1440px;
     margin: auto;
 }
-#tetepage
+#tete-page
 {
     display: flex;
     align-items: flex-start;
@@ -43,7 +43,7 @@ nav > a
 }
 nav > a:hover
 {
-    border-top: 2px solid blue;
+    border-top: 2px solid #0065FC;
 }
 #recherche
 {
@@ -62,11 +62,21 @@ nav > a:hover
     padding: 10px;
     background-color: #F2F2F2;
 }
+.barre-search
+{
+    border-color: #ffffff;
+    border: 2px solid #f2f2f2;
+}
 .search
 {
     border-radius: 0px 12px 12px 0px;
     background-color: #0065FC;
-    color: white;    
+    color: white;  
+    height: 40px;  
+}
+#loupe
+{
+    display: none;
 }
 #filtre
 {
@@ -82,6 +92,13 @@ nav > a:hover
     height: 40px;
     width: 15%;
     margin: 1%;
+}
+.bouton-filtre
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .icone
 {
@@ -252,11 +269,13 @@ nav > a:hover
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
+    width: 80%;
+    margin-left: 6%;
 }
 .boxleft > a > img
 {
     height: 94%;
-    width: 36%;
+    width: 45%;
     border-radius: 20px 0px 0px 20px;
     padding: 5px;
 }
@@ -284,6 +303,10 @@ nav > a:hover
     margin: auto;
     margin-top: 30px;
 }
+#activites > h2
+{
+    margin-left: 5%;
+}
 #boxdown
 {
     display: flex;
@@ -310,11 +333,6 @@ nav > a:hover
 .img1 > h3
 {
     margin-left: 15px;
-}
-#img2et3
-{
-    display: flex;
-    flex-direction: column;
 }
 .img2 > img
 {

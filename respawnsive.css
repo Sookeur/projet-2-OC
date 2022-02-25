@@ -1,12 +1,315 @@
-@media screen and (max-width: 768px) {
+                /** Format Tablette **/
+@media screen and (max-width: 768px) 
+{
+    #filtre
+    {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 
     .filtres
+    {
+        width: 22%;
+    }
+    .boxcentrale
+    {
+        width: 45%;
+    }
+    .maps
+    {
+        padding: 15px;
+    }
+    .barre-search
+    {
+        width: 30%;
+    }
+    #filtre > h2
+    {
+        margin-left: 2%;
+    }
+    #middle
+   {
+    flex-direction: column-reverse;
+   }
+   #populaire
+   {
+       margin-left: 0px;
+       width: 100%;
+       border-radius: 0px;
+   }
+   #boxdroite
+   {
+       margin-bottom: 5%;
+       align-items: center;
+   }
+   #hebergement
+   {
+       width: 100%;
+       border-radius: 0px;
+   }
+   .boxleft
+   {
+       width: 80%;
+   }
+   #boxdown
+   {
+        flex-direction: column;
+        align-items: center;
+   }
+   .img1
+   {
+       width: 460px;
+       height: 230px;
+       margin-bottom: 5%;
+       margin-right: 150px;
+   }
+   .img1 > img
+   {
+        height: 175px;
+   }
+   .img2
+   {
+        width: 460px;
+        height: 230px;
+        margin-bottom: 5%;
+        margin-left: 150px;
+   }
+   .img2 > img
+   {
+       height: 175px;
+   }
+   .img3
+   {
+        width: 460px;
+        height: 230px;
+        margin-bottom: 5%;
+        margin-right: 150px;
+   }
+   .img3 > img
+   {
+        height: 175px;
+   }
+   .img4
+   {
+        width: 460px;
+        height: 230px;
+        margin-bottom: 5%;
+        margin-left: 150px;
+   }
+   .img4 > img
+   {
+        height: 175px;
+   }
+   .img5
+   {
+        width: 460px;
+        height: 230px;
+        margin-bottom: 5%;
+        margin-right: 150px;
+   }
+   .img5 > img
+   {
+        height: 175px;
+   }
+   .img6
+   {
+        width: 460px;
+        height: 230px;
+        margin-bottom: 5%;
+        margin-left: 150px;
+   }
+   .img6 > img
+   {
+    height: 175px;
+   }
+                /** Format Mobile **/
+@media screen and (max-width: 450px) 
 {
-    width: 20%;
-}
-.boxcentrale
-{
-    width: 45%;
+    header
+    {
+        margin-top: 5%;
+    }
+    #tete-page
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #logo
+    {
+        height: 60px;
+        width: 125px;
+    }
+    nav > a
+    {
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 78px;
+        margin-right: 0px;
+    }
+    nav > a:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+    header > h1
+    {
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 2%;
+    }
+    header > p
+    {
+        margin-left: 2%;
+    }
+    #recherche
+    {
+        margin: 1%;
+        justify-content: center;
+    }
+    .maps
+    {
+        padding: 15px;
+    }
+    .search
+    {
+        border-radius: 12px 12px 12px 12px;
+        display: none;
+    }
+    #loupe
+    {
+        display: flex;
+        color: white;
+        border-radius: 12px;
+        background-color: #0065FC;
+        padding: 15px;
+    }
+    .barre-search
+    {
+        width: 70%;
+    }
+    #filtre
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #filtre > h2
+    {
+        font-size: 20px;
+        margin-left: 3%;
+    }
+   .filtres
+   {
+       width: 45%;
+   }
+   #middle
+   {
+    flex-direction: column-reverse;
+   }
+   #populaire
+   {
+       margin-left: 0px;
+       width: 100%;
+       border-radius: 0px;
+   }
+   #boxdroite
+   {
+       margin-bottom: 5%;
+   }
+   #hebergement
+   {
+       width: 100%;
+       border-radius: 0px;
+   }
+   .boxcentrale
+   {
+       width: 90%;
+   }
+   #boxdown
+   {
+        flex-direction: column;
+        align-items: center;
+   }
+   .img1
+   {
+       width: 390px;
+       height: 215px;
+       margin-bottom: 5%;
+   }
+   .img1 > img
+   {
+        height: 160px;
+   }
+   .img2
+   {
+        width: 390px;
+        height: 215px;
+        margin-bottom: 5%;
+   }
+   .img2 > img
+   {
+       height: 160px;
+   }
+   .img3
+   {
+        width: 390px;
+        height: 215px;
+        margin-bottom: 5%;
+   }
+   .img3 > img
+   {
+        height: 160px;
+   }
+   .img4
+   {
+        width: 390px;
+        height: 215px;
+        margin-bottom: 5%;
+   }
+   .img4 > img
+   {
+        height: 160px;
+   }
+   .img5
+   {
+        width: 390px;
+        height: 215px;
+        margin-bottom: 5%;
+   }
+   .img5 > img
+   {
+        height: 160px;
+   }
+   .img6
+   {
+        width: 390px;
+        height: 215px;
+        margin-bottom: 5%;
+   }
+   .img6 > img
+   {
+    height: 160px;
+   }
+   #footer
+   {
+       flex-direction: column;
+       margin-top: 0px;
+       margin-bottom: 10%;
+   }
+   .foot
+   {
+       margin-top: 5%;
+       margin-left: 5%;
+       margin-bottom: 5%;
+   }
+   
+
+
+
+
+
 }
 
 
