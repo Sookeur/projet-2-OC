@@ -186,6 +186,10 @@
         background-color: #0065FC;
         padding: 15px;
     }
+    #loupe:hover
+    {
+        cursor: pointer;
+    }
     .barre-search
     {
         width: 70%;
@@ -237,6 +241,7 @@
        width: 390px;
        height: 215px;
        margin-bottom: 5%;
+       margin-right: 0px;
    }
    .img1 > img
    {
@@ -247,6 +252,7 @@
         width: 390px;
         height: 215px;
         margin-bottom: 5%;
+        margin-left: 0px;
    }
    .img2 > img
    {
@@ -257,6 +263,7 @@
         width: 390px;
         height: 215px;
         margin-bottom: 5%;
+        margin-right: 0px;
    }
    .img3 > img
    {
@@ -267,6 +274,7 @@
         width: 390px;
         height: 215px;
         margin-bottom: 5%;
+        margin-left: 0px;
    }
    .img4 > img
    {
@@ -277,6 +285,7 @@
         width: 390px;
         height: 215px;
         margin-bottom: 5%;
+        margin-right: 0px;
    }
    .img5 > img
    {
@@ -287,6 +296,7 @@
         width: 390px;
         height: 215px;
         margin-bottom: 5%;
+        margin-left: 0px;
    }
    .img6 > img
    {
