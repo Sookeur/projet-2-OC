@@ -23,6 +23,8 @@ header
 {
     max-width: 1440px;
     margin: auto;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 header > h1
 {
@@ -118,7 +120,7 @@ nav > a:hover
     align-items: center;
     border-radius: 22px;
     height: 40px;
-    width: 16%;
+    min-width: 16%;
     margin: 1%;
 }
 .bouton-filtre
@@ -131,14 +133,12 @@ nav > a:hover
 .icone
 {
     display: flex;
-    border: 2px solid #F2F2F2;
     background-color: #DEEBFF;
     border-radius: 100%;
-    width: 40px;
+    min-width: 40px;
     height: 100%;
     align-items: center;
     justify-content: center;
-    border-left-width: 0px;
     color: #0065FC;
     border: none;
 }
@@ -186,6 +186,8 @@ nav > a:hover
     display: flex;
     max-width: 1440px;
     margin: auto;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 #hebergement
 {
@@ -348,6 +350,8 @@ nav > a:hover
     max-width: 1440px;
     margin: auto;
     margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 #activites > h2
 {
@@ -498,8 +502,8 @@ nav > a:hover
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-right: 15%;
-    margin-left: 2%;
+    margin-right: 8%;
+    margin-left: 3%;
 }
 .foot > h3
 {
