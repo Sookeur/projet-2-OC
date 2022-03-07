@@ -1,6 +1,10 @@
                 /** Format Tablette **/
 @media screen and (max-width: 768px) 
 {
+    header
+    {
+        margin-top: 0px;
+    }
     #filtre
     {
         align-items: flex-start;
@@ -147,12 +151,17 @@
         padding-left: 60px;
         padding-right: 78px;
         margin-right: 0px;
+        padding-top: 26px;
     }
     nav > a:hover
     {
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
         border-top: none;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 78px;
+        margin-right: 0px;
     }
     header > h1
     {

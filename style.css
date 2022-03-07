@@ -2,21 +2,32 @@
 @font-face {
     font-family:"raleway";
     src: url(font/Raleway-Regular.ttf);
-
+    
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family:"bold";
+    src: url(font/Raleway-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 body
 {
     font-family: "raleway", Arial, Helvetica, sans-serif;
     margin-top: 0px;
+    margin: 0px;
 }
             /* header */
 header
 {
     max-width: 1440px;
     margin: auto;
+}
+header > h1
+{
+    font-size: x-large;
+    font-family: "bold";
 }
 #tete-page
 {
@@ -36,14 +47,14 @@ nav
 }
 nav > a
 {
-    margin-right: 50px;
     text-decoration: none;
-    padding-top: 20px;
-    border-top: 2px solid white;
+    border-top: 4px solid white;
+    padding: 30px;
 }
 nav > a:hover
 {
-    border-top: 2px solid #0065FC;
+    border-top: 4px solid #0065FC;
+    padding: 30px;
 }
 #recherche
 {
@@ -59,20 +70,31 @@ nav > a:hover
     display: flex;
     border: 2px solid #F2F2F2;
     border-radius: 12px 0px 0px 12px;
-    padding: 10px;
+    padding: 13px;
     background-color: #F2F2F2;
 }
 .barre-search
 {
     border-color: #ffffff;
     border: 2px solid #f2f2f2;
+    width: 200px;
+    padding-left: 20px;
+    font-family:"bold";
 }
 .search
 {
     border-radius: 0px 12px 12px 0px;
     background-color: #0065FC;
     color: white;  
-    height: 40px;  
+    height: 100%;  
+    width: 130px;
+    border: none;
+    font-size: 17px;
+    font-style: bold;
+}
+.search:hover
+{
+    cursor: pointer;
 }
 #loupe
 {
@@ -82,6 +104,12 @@ nav > a:hover
 {
     display: flex;
     align-items: center;
+    margin-top: 1%;
+}
+#filtre > h2
+{
+    font-size: large;
+    font-family:"bold";
 }
 .filtres
 {
@@ -90,7 +118,7 @@ nav > a:hover
     align-items: center;
     border-radius: 22px;
     height: 40px;
-    width: 15%;
+    width: 16%;
     margin: 1%;
 }
 .bouton-filtre
@@ -112,6 +140,7 @@ nav > a:hover
     justify-content: center;
     border-left-width: 0px;
     color: #0065FC;
+    border: none;
 }
 .blue
 {
@@ -124,8 +153,9 @@ nav > a:hover
 .select-filtre
 {
     text-align: center;
-    font-weight: bold;
     margin: auto;
+    font-family:"bold";
+    font-size: large;
 }
 .filtres:hover
 {
@@ -135,6 +165,7 @@ nav > a:hover
 {
     display: flex;
     align-items: center;
+    margin-bottom: 1%;
 }
 .info
 {
@@ -166,17 +197,23 @@ nav > a:hover
 }
 #hebergement > h2
 {
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family:"bold";
 }
 #hebergement > h3
 {
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    margin-top: 0px;
+    font-family:"bold";
 }
 #boxcentre
 {
     display: flex;
-    width: 100%;
-    margin: auto;
+    width: 96%;
+    margin: 2%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -189,9 +226,9 @@ nav > a:hover
     background-color: white;
     padding: 5px;
     border-radius: 20px;
-    height: 235px;
-    width: 30%;
-    margin-bottom: 20px;
+    height: 220px;
+    width: 29%;
+    margin-bottom: 30px;
 }
 .boxcentrale:hover
 {
@@ -204,7 +241,7 @@ nav > a:hover
 }
 .boxcentrale > a > img
 {
-    height: 150px;
+    height: 130px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
@@ -219,6 +256,7 @@ nav > a:hover
     margin-bottom: 10px;
     margin-left: 12px;
     margin-top: 0px;
+    font-family:"bold";
 }
 
 
@@ -238,8 +276,16 @@ nav > a:hover
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+.pop > h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family:"bold";
 }
 #boxdroite
 {
@@ -257,7 +303,7 @@ nav > a:hover
     flex-direction: row;
     margin: 21px;
     height: 154px;
-    margin-bottom: 0px;
+    margin-bottom: 13px;
 }
 .boxleft:hover
 {
@@ -274,8 +320,7 @@ nav > a:hover
 }
 .boxleft > a > img
 {
-    height: 94%;
-    width: 45%;
+    width: 140px;
     border-radius: 20px 0px 0px 20px;
     padding: 5px;
 }
@@ -286,6 +331,7 @@ nav > a:hover
 .boxtext > h3
 {
     margin-bottom: 0px;
+    font-family:"bold";
 }
 .boxleft > a 
 {
@@ -305,7 +351,7 @@ nav > a:hover
 }
 #activites > h2
 {
-    margin-left: 5%;
+    font-family:"bold";
 }
 #boxdown
 {
@@ -313,6 +359,7 @@ nav > a:hover
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family:"bold";
 }
 .img1 > img
 {
@@ -453,6 +500,10 @@ nav > a:hover
     flex-wrap: nowrap;
     margin-right: 15%;
     margin-left: 2%;
+}
+.foot > h3
+{
+    font-family:"bold";
 }
 .foot > p
 {
