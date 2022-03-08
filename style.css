@@ -300,7 +300,7 @@ nav > a:hover
     border-radius: 20px;
     flex-direction: row;
     margin: 21px;
-    height: 25%;
+    height: 160px;
     margin-bottom: 13px;
 }
 .boxleft:hover
@@ -504,6 +504,10 @@ nav > a:hover
 {
     margin-left: 12%;
     margin-right: 8%;
+}
+.foot1 > h3
+{
+    font-family:"bold";
 }
 .foot > h3
 {
