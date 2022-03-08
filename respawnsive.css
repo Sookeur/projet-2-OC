@@ -173,11 +173,11 @@
     {
         font-size: 25px;
         font-weight: bold;
-        margin-left: 2%;
+        margin-left: 3%;
     }
     header > p
     {
-        margin-left: 2%;
+        margin-left: 3%;
     }
     #recherche
     {
@@ -214,6 +214,7 @@
     {
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: 3%;
     }
     #filtre > h2
     {
@@ -223,6 +224,10 @@
    .filtres
    {
        min-width: 45%;
+   }
+   #info
+   {
+    margin-left: 3%;
    }
    #middle
    {
