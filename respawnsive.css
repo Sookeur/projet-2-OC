@@ -58,7 +58,7 @@
    }
    .boxleft
    {
-       width: 80%;
+       width: 90%;
    }
    #boxdown
    {
@@ -143,12 +143,18 @@
         height: 60px;
         width: 125px;
     }
+    nav
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     nav > a
     {
         border-bottom: 2px solid #f2f2f2;
         padding-bottom: 20px;
-        padding-left: 60px;
-        padding-right: 78px;
+        padding-left: 31%;
+        padding-right: 31%;
         margin-right: 0px;
         padding-top: 26px;
     }
@@ -158,8 +164,8 @@
         border-bottom: 2px solid #0065FC;
         border-top: none;
         padding-bottom: 20px;
-        padding-left: 60px;
-        padding-right: 78px;
+        padding-left: 31%;
+        padding-right: 31%;
         margin-right: 0px;
     }
     header > h1
@@ -251,7 +257,7 @@
    .img1
    {
        min-width: 153px;
-        width: 80%;
+        width: 90%;
        height: 215px;
        margin-bottom: 5%;
        margin-right: 0px;
@@ -263,7 +269,7 @@
    .img2
    {
         min-width: 153px;
-        width: 80%;
+        width: 90%;
         height: 215px;
         margin-bottom: 5%;
         margin-left: 0px;
@@ -275,7 +281,7 @@
    .img3
    {
         min-width: 153px;
-        width: 80%;
+        width: 90%;
         height: 215px;
         margin-bottom: 5%;
         margin-right: 0px;
@@ -287,7 +293,7 @@
    .img4
    {
         min-width: 153px;
-        width: 80%;
+        width: 90%;
         height: 215px;
         margin-bottom: 5%;
         margin-left: 0px;
@@ -299,7 +305,7 @@
    .img5
    {
         min-width: 153px;
-        width: 80%;
+        width: 90%;
         height: 215px;
         margin-bottom: 5%;
         margin-right: 0px;
@@ -311,7 +317,7 @@
    .img6
    {
         min-width: 153px;
-        width: 80%;
+        width: 90%;
         height: 215px;
         margin-bottom: 5%;
         margin-left: 0px;
@@ -319,6 +325,13 @@
    .img6 > img
    {
         height: 160px;
+   }
+   .double
+   {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    }
 
    #footer
