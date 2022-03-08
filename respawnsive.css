@@ -1,5 +1,5 @@
                 /** Format Tablette **/
-@media screen and (max-width: 1300px) 
+@media screen and (max-width: 1170px) 
 {
     header
     {
@@ -25,7 +25,7 @@
     }
     .barre-search
     {
-        min-width: 30%;
+        min-width: 17%;
     }
     #filtre > h2
     {
@@ -68,7 +68,7 @@
    .img1
    {
        width: 460px;
-       height: 230px;
+       height: 217px;
        margin-bottom: 5%;
    }
    .img1 > img
@@ -78,7 +78,7 @@
    .img2
    {
         width: 460px;
-        height: 230px;
+        height: 217px;
         margin-bottom: 5%;
    }
    .img2 > img
@@ -88,7 +88,7 @@
    .img3
    {
         width: 460px;
-        height: 230px;
+        height: 217px;
         margin-bottom: 5%;
    }
    .img3 > img
@@ -98,7 +98,7 @@
    .img4
    {
         width: 460px;
-        height: 230px;
+        height: 217px;
         margin-bottom: 5%;
    }
    .img4 > img
@@ -108,7 +108,7 @@
    .img5
    {
         width: 460px;
-        height: 230px;
+        height: 217px;
         margin-bottom: 5%;
    }
    .img5 > img
@@ -118,7 +118,7 @@
    .img6
    {
         width: 460px;
-        height: 230px;
+        height: 217px;
         margin-bottom: 5%;
    }
    .img6 > img
@@ -148,13 +148,14 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        width: 100%;
     }
     nav > a
     {
         border-bottom: 2px solid #f2f2f2;
         padding-bottom: 20px;
-        padding-left: 31%;
-        padding-right: 31%;
+        padding-left: 14%;
+        padding-right: 17%;
         margin-right: 0px;
         padding-top: 26px;
     }
@@ -164,8 +165,8 @@
         border-bottom: 2px solid #0065FC;
         border-top: none;
         padding-bottom: 20px;
-        padding-left: 31%;
-        padding-right: 31%;
+        padding-left: 14%;
+        padding-right: 17%;
         margin-right: 0px;
     }
     header > h1
@@ -256,9 +257,7 @@
    }
    .img1
    {
-       min-width: 153px;
-        width: 90%;
-       height: 215px;
+       width: 90%;
        margin-bottom: 5%;
        margin-right: 0px;
    }
@@ -268,9 +267,7 @@
    }
    .img2
    {
-        min-width: 153px;
         width: 90%;
-        height: 215px;
         margin-bottom: 5%;
         margin-left: 0px;
    }
@@ -280,9 +277,7 @@
    }
    .img3
    {
-        min-width: 153px;
         width: 90%;
-        height: 215px;
         margin-bottom: 5%;
         margin-right: 0px;
    }
@@ -292,9 +287,7 @@
    }
    .img4
    {
-        min-width: 153px;
         width: 90%;
-        height: 215px;
         margin-bottom: 5%;
         margin-left: 0px;
    }
@@ -304,9 +297,7 @@
    }
    .img5
    {
-        min-width: 153px;
         width: 90%;
-        height: 215px;
         margin-bottom: 5%;
         margin-right: 0px;
    }
@@ -316,9 +307,7 @@
    }
    .img6
    {
-        min-width: 153px;
         width: 90%;
-        height: 215px;
         margin-bottom: 5%;
         margin-left: 0px;
    }
