@@ -487,9 +487,9 @@ nav > a:hover
 {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     margin-top: 30px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .foot
