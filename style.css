@@ -23,8 +23,6 @@ header
 {
     max-width: 1440px;
     margin: auto;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 header > h1
 {
@@ -186,8 +184,6 @@ nav > a:hover
     display: flex;
     max-width: 1440px;
     margin: auto;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 #hebergement
 {
@@ -304,7 +300,7 @@ nav > a:hover
     border-radius: 20px;
     flex-direction: row;
     margin: 21px;
-    height: 154px;
+    height: 170px;
     margin-bottom: 13px;
 }
 .boxleft:hover
@@ -319,6 +315,7 @@ nav > a:hover
     align-items: stretch;
     width: 80%;
     margin-left: 6%;
+    color: black;
 }
 .boxleft > a > img
 {
@@ -350,8 +347,6 @@ nav > a:hover
     max-width: 1440px;
     margin: auto;
     margin-top: 30px;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 #activites > h2
 {
