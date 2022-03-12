@@ -341,7 +341,7 @@
     align-items: center;
    }
 
-   #footer
+   .bloc-foot
    {
        flex-direction: column;
        margin-top: 0px;
